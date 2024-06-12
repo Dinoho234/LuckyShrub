@@ -1,0 +1,151 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+body{
+    background-color: rgb(230,255,204);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.logo{
+    height: 100px;
+}
+
+.logo img{
+    display: block;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-bar{
+    display: flex;
+    background-color: brown;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 35% ;
+
+}
+.nav-bar ul{
+    display: flex;
+    gap: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav-bar li{
+    color: aliceblue;
+    list-style: none;
+    font-size: 1.25em;
+}
+
+.nav-bar li a:link{
+    color: aliceblue;
+    text-decoration: none;
+}   
+
+.nav-bar li a:visited{
+    color: aliceblue;
+}
+
+section{
+    display: flex;
+    gap: 10px;
+}
+
+.greeting{
+    margin-top: 1em;
+    height: 40vh;
+    background: url("./images/banner.png") no-repeat center center;
+    background-size: cover;
+}
+
+.greeting h1{
+    text-align: center;
+    font-size: 2em;
+    color: brown;
+    cursor:  default;
+}
+
+article{
+    margin-top: 2em;
+    flex: 1 ;
+}
+
+.cards article{
+    background-color: rgb(179,255,102);
+    border-radius: 10%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.card *{
+    margin-left: 5%;
+}
+
+.card-img{
+    margin-left: auto;
+    margin-right: auto;
+    height: 60%;
+    width: 95%;
+    cursor: pointer;
+}
+
+.card-title{
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.card-subtitle{
+    margin-top: 0.5em;
+    color: rgb(74, 72, 72);
+}
+
+.card-description{
+    font-size: 0.85em;
+}
+
+footer{
+    display: flex;
+    margin-top: 2em;
+    border-top: 2px black solid;
+    flex-wrap: wrap;
+}
+
+.contact{
+    width: 50%;
+}
+
+.contact *{
+    margin: 0.5em;
+}
+
+.footer-logo{
+    align-self: center;
+    display: flex;
+    justify-content: end;
+    height: 80px;
+    width: 50%;
+}
+
+.footer-logo img{
+    height: 100%;
+
+}
+
+.copyright{
+    flex: 1;
+}
+.copyright p{
+    text-align: center;
+    font-size: 0.75em;
+}
